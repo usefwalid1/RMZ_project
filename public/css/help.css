@@ -1,0 +1,116 @@
+#back_ground{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(0px);
+    z-index: -99;
+}
+.nav {
+    text-align: left;
+    padding: 10px 12px;
+    background-color: rgb(135, 127, 209);
+    box-shadow: 0 0 12px 0 black;
+}
+
+.nav_col {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header_logo_img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0black;
+    border: 1px solid transparent;
+}
+
+.nav_list {
+    list-style: none;
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.nav_item {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
+    transition:ease-in 0.8s;
+}
+
+.nav_item>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px; 
+}
+.nav_item :hover {
+    box-shadow: inset 300px 0 0 0 #ffffff;
+    cursor: pointer;
+    color:rgb(135, 127, 209);
+
+}
+
+
+.nav_col {
+    vertical-align: middle;
+}
+.welcome_text{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffffff ;
+}
+#board{
+    z-index: 1;
+    width: 40% ;
+    height: 35%;
+    position: absolute;
+    top: 50% ;
+    left: 50% ;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: translate(10%,-40%);
+    border: 4px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 50px;
+    }
+    .text_center{
+        text-align: center;
+    }
+    
+    .margin_5_top{
+        margin-top: 5px;
+    }
+    .board_header{
+        display: inline-block;
+        text-align: center;
+        border-bottom: 3px solid rgb(13, 8, 107);
+        padding-top: 10px 0 ;
+        color: rgb(10, 10, 100);
+    }
+    .help_text{
+        font-size: large;
+        font-weight: bold;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .col{
+
+        width: calc(100% / 2 - 1%);
+        display: inline-block;
+        vertical-align: middle;
+    
+    }
+    .help_img {
+        width: 500px ;
+        height: 400px ;
+        transform: translate(20%, 20%);
+        box-shadow: 0 0 20px 0 black;
+    }
+    
